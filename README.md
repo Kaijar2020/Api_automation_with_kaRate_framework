@@ -1,5 +1,5 @@
-# kaRate
- API automation with karate framework
+# Project Headline
+ API automation with karate framework.
 
  # What is Karate?
 
