@@ -15,7 +15,7 @@ Feature: E2E Testing to perform GET<POST<PUT and DELETE request
 
     * def randomString = random_string(10)
     * print randomString
-    * def reqPayload = read('classpath:src/test/resources/payload/user.json')
+    * def reqPayload = read('classpath:payload/user.json')
     * reqPayload.email = randomString + "@gmail.com"
     * print reqPayload
 

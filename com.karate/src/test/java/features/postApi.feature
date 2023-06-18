@@ -15,7 +15,7 @@ Feature: POST call request
 
     * def randomString = random_string(10)
     * print randomString
-    * def reqPayload = read('classpath:src/test/resources/payload/user.json')
+    * def reqPayload = read('payload/user.json')
     * reqPayload.email = randomString + "@gmail.com"
     * print reqPayload
 
